@@ -9,10 +9,12 @@
 /* Begin PBXBuildFile section */
 		AC0218452EAE89CC00E75D3D /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = AC0218442EAE89CC00E75D3D /* FirebaseAnalytics */; };
 		AC0218472EAE89CC00E75D3D /* FirebasePerformance in Frameworks */ = {isa = PBXBuildFile; productRef = AC0218462EAE89CC00E75D3D /* FirebasePerformance */; };
+		ACA9489E2EB334A000D8C3E4 /* readme.md in Resources */ = {isa = PBXBuildFile; fileRef = ACA9489D2EB3349800D8C3E4 /* readme.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		AC0218292EAE7B5400E75D3D /* MyAppMonitoringPerformance.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyAppMonitoringPerformance.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACA9489D2EB3349800D8C3E4 /* readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = readme.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -46,6 +48,7 @@
 		AC0218202EAE7B5400E75D3D = {
 			isa = PBXGroup;
 			children = (
+				ACA9489D2EB3349800D8C3E4 /* readme.md */,
 				AC02182B2EAE7B5400E75D3D /* MyAppMonitoringPerformance */,
 				AC02182A2EAE7B5400E75D3D /* Products */,
 				0C04F06265AA204FCEC664F6 /* Pods */,
@@ -133,6 +136,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ACA9489E2EB334A000D8C3E4 /* readme.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
