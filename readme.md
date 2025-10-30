@@ -14,4 +14,4 @@ App de monitoreo de rendimiento con Firebase Performance 🚀
    git clone https://github.com/andres212/artifact_firebase_monitoring_performance_ios.git
 
 
-![screen_shot]https://imgur.com/a/tAil1p0
+<img width="980" alt="7-sdk-version" src="https://imgur.com/a/tAil1p0">
