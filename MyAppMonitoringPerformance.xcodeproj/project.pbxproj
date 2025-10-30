@@ -6,6 +6,11 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		AC0218452EAE89CC00E75D3D /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = AC0218442EAE89CC00E75D3D /* FirebaseAnalytics */; };
+		AC0218472EAE89CC00E75D3D /* FirebasePerformance in Frameworks */ = {isa = PBXBuildFile; productRef = AC0218462EAE89CC00E75D3D /* FirebasePerformance */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		AC0218292EAE7B5400E75D3D /* MyAppMonitoringPerformance.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyAppMonitoringPerformance.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -23,17 +28,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC0218452EAE89CC00E75D3D /* FirebaseAnalytics in Frameworks */,
+				AC0218472EAE89CC00E75D3D /* FirebasePerformance in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0C04F06265AA204FCEC664F6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		AC0218202EAE7B5400E75D3D = {
 			isa = PBXGroup;
 			children = (
 				AC02182B2EAE7B5400E75D3D /* MyAppMonitoringPerformance */,
 				AC02182A2EAE7B5400E75D3D /* Products */,
+				0C04F06265AA204FCEC664F6 /* Pods */,
+				FA1B2E96A2B7A5E032C25034 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -43,6 +59,13 @@
 				AC0218292EAE7B5400E75D3D /* MyAppMonitoringPerformance.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		FA1B2E96A2B7A5E032C25034 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -64,8 +87,6 @@
 				AC02182B2EAE7B5400E75D3D /* MyAppMonitoringPerformance */,
 			);
 			name = MyAppMonitoringPerformance;
-			packageProductDependencies = (
-			);
 			productName = MyAppMonitoringPerformance;
 			productReference = AC0218292EAE7B5400E75D3D /* MyAppMonitoringPerformance.app */;
 			productType = "com.apple.product-type.application";
@@ -94,6 +115,9 @@
 			);
 			mainGroup = AC0218202EAE7B5400E75D3D;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				AC0218432EAE89CC00E75D3D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = AC02182A2EAE7B5400E75D3D /* Products */;
 			projectDirPath = "";
@@ -332,6 +356,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		AC0218432EAE89CC00E75D3D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 12.4.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		AC0218442EAE89CC00E75D3D /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AC0218432EAE89CC00E75D3D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		AC0218462EAE89CC00E75D3D /* FirebasePerformance */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AC0218432EAE89CC00E75D3D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebasePerformance;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = AC0218212EAE7B5400E75D3D /* Project object */;
 }
